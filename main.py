@@ -12,23 +12,23 @@ tasks = [
 def root():
     return "Hello World"
 
-@app.get("/get-all-tasks")
-def get_tasks():
-    return "Hello World"
-
-@app.get("/get-all-tasks")
+@app.get("/get-tasks")
 def get_all_tasks():
     return tasks
 
-@app.put("/")
-def root():
-    return "Hello World"
+#@app.get("/")
+#def get_task():
+#    return "Hello World"
 
-@app.post("/")
-def create_task():
-    return "Hello World"
+#@app.put("/")
+#def update_task():
+#    return "Hello World"
 
-@app.delete("/")
-def delete_task():
-    return "Hello World"
+#@app.post("/")
+#def create_task():
+#    return "Hello World"
+
+#@app.delete("/")
+#def delete_task():
+#    return "Hello World"
 
